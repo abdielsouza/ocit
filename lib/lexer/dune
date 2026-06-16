@@ -1,0 +1,4 @@
+(library
+  (public_name ocit.lexer)
+  (name lexer)
+  (modules token lexer position rule span state diagnostic builder context))
