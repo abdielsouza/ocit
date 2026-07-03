@@ -1,0 +1,5 @@
+(library
+  (public_name ocit.ast)
+  (name ast)
+  (modules node literal operator expression statement declaration program ast)
+  (libraries ocit.lexer))
