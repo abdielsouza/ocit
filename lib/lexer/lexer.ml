@@ -1,3 +1,6 @@
+module Span = Span
+module Position = Position
+
 type result = {
   tokens : Token.t list;
   diagnostics : Diagnostic.t list;
